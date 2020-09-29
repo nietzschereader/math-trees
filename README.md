@@ -1,10 +1,9 @@
-Math Trees
-==========
+# Math Trees
+
 Make math expressions with trees
 
 
-Getting Started
----------------
+## Getting Started
 ```
     git clone https://github.com/spboyle/math-trees`
     cd math-trees
@@ -12,25 +11,26 @@ Getting Started
     python setup.py develop
 ```
 
-Running tests
-~~~~~~~~~~~~~
-`python setup.py test` or `pytest`
+### Running tests
+`python setup.py test`
 
 
-Code Challenge
---------
-* Create a math syntax tree which can represent math expressions using numbers and the operations plus(+), minus(-), times(*), and divide(/)
+## Code Challenge
+Please code the following. Feel free to add to or re-structure the project as needed.
+* Create a math syntax tree which can represent math expressions that supports the following:
+  * Real numbers
+  * plus(+)
+  * minus(-)
+  * times(*)
+  * divide(/)
 * Implement an evaluation method which calculates the value of the expression
 * Write a parser which converts an ascii string to tree format
-  * BONUS: Make the parser handle parentheses ()
 * Implement a `__str__` method which converts a math tree into an ascii string equivalent
+* Make the string parser handle parentheses ()
 
-A couple starter tests have been provided as a guide. Feel free to change or add to them as needed!
+
+Please dedicate about two to four hours on this -- complete as much as you are able, but don't feel that you have to complete every bullet. They are ordered by priority, so we suggest coding to each requirement in top-down order.
 
 
-Credits
--------
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+## Credits
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) project template.
