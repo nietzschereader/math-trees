@@ -1,4 +1,4 @@
-# Math Trees
+# Evaluating math expressions
 
 Make math expressions with trees
 
@@ -17,19 +17,19 @@ Make math expressions with trees
 
 ## Code Challenge
 Please code the following. Feel free to add to or re-structure the project as needed.
-* Create a math syntax tree which can represent math expressions that supports the following:
+1. Create a data structure which can represent math expressions that supports the following:
   * Real numbers
   * plus(+)
   * minus(-)
   * times(*)
   * divide(/)
-* Implement an evaluation method which calculates the value of the expression
-* Write a parser which converts an ascii string to tree format
-* Implement a `__str__` method which converts a math tree into an ascii string equivalent
-* Make the string parser handle parentheses ()
+2. Implement an evaluation method which calculates the value of the expression
+3. Write a parser which can convert a string containing a valid composition of any of the above operations to your data structure
+4. Implement a `__str__` method which converts a math tree into an ascii string equivalent
+5. Enhance the string parser you wrote in step #3 to handle parentheses ()
 
 
-Please dedicate about two to four hours on this -- complete as much as you are able, but don't feel that you have to complete every bullet. They are ordered by priority, so we suggest coding to each requirement in top-down order.
+We would expect this work to take about four hours, but take however much time you'd like on this. Complete as much as you are able, but don't feel that you have to complete every item. They are ordered by difficultly, so we suggest coding to each requirement in number order.
 
 
 ## Credits
